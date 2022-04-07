@@ -3,8 +3,9 @@ $("form#pls").submit(function(event) {
   const exp = $("input#exp").val();
   const today = $("#today").val();
   const favoriteColor = $("#color").val();
-  const space = $("#input:radio[name=space]:checked").val()
-  
+  const space = $("#input:radio[name=space]:checked").val();
+  const fightInput = $("input#fightInput").val();
+  const google = $("input#google").val();
   
   
   
