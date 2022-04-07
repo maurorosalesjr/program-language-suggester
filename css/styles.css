@@ -1,13 +1,14 @@
 .container {
   margin-top: 5%;
   margin-left: 10%;
-  margin-right: 10;
+  margin-right: 10%;
 }
 
 h1 {
   text-align: center;
-  border-radius: 20%;
-  background-color: bisque;
-  border-color: chartreuse;
+  border-radius: 1%;
+  background-color: rgb(226, 255, 250);
+  border-color: darkgoldenrod;
   border-style: dashed;
 }
+
