@@ -6,12 +6,10 @@ $("form#pls").submit(function(event) {
   const space = $("#input:radio[name=space]:checked").val();
   const fightInput = $("input#fightInput").val();
   const google = $("input#google").val();
+  const result = add(exp, favoriteColor, space, google);
+    $("#output").text(result);
   
   
-  
-  if("#experienced") {
-    $("#experienced").alert("Maybe you're too advanced for this quiz and should probably learn something harder then Java Script, C# or Python")
-  }
 
   function colorValue(color) {
     if(color === "red") {
@@ -24,5 +22,13 @@ $("form#pls").submit(function(event) {
       value = 1
     }
   }
+  function add(exp, colorValue, space, google) {
+    return exp + colorValue + space + google
+  }
+
+
+  /*if("") {
+    $("#experienced").alert("Maybe you're too advanced for this quiz and should probably learn something harder then Java Script, C# or Python")
+  }*/
   
 });
