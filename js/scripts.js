@@ -29,7 +29,7 @@ $("form#pls").submit(function(event) {
     ("#python").hide();
   }
 
-  $("#output").text(result);
+  $("#result").text(result);
   $("#result").show();
 
 
