@@ -17,7 +17,7 @@ This app uses radio buttons, drop down menus, input fields, color selecter and d
 
 ## Setup/Installation Requirements
 
-* launch in a web browser of your choice using link:
+* launch in a web browser of your choice using link: https://github.com/maurorosalesjr/program-language-suggester/tree/gh-pages
 * _to list setup instructions_
 * use selecter buttons to come up with your answers
 * finally hit submit to see your answer
