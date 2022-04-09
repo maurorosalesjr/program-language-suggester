@@ -6,12 +6,12 @@ $("form#pls").submit(function(event) {
   const space = $("#input:radio[name=space]:checked").val();
   const fightInput = $("input#fightInput").val();
   const google = $("input#google").val();
-  const result = add(exp, favoriteColor, space, google);
-    $("#output").text(result);
+  /*const result = add(exp, favoriteColor, space, google);
+    $("#output").text(result);*/
   
   
 
-  function colorValue(color) {
+  function color(color) {
     if(color === "red") {
       value = 2
     } else if (color === "blue") {
@@ -22,9 +22,22 @@ $("form#pls").submit(function(event) {
       value = 1
     }
   }
-  function add(exp, colorValue, space, google) {
-    return exp + colorValue + space + google
+  
+  function add(exp, color, space, google) {
+    return exp + color + space + google
   }
+
+  $(document).ready(function() {
+    $("form#add").submit(function(event) {
+      event.preventDefault();
+        const number1 = parseInt($("#exp").val());
+        const number2 = parseInt($("#space").val());
+        const number3 = parseInt($("#color").val());
+        const number4 = parseInt($("#google").val());
+        const result = add(number1, number2, number3, number4);
+        $("#output").text(result);
+    });
+  });
 
 
   /*if("") {
