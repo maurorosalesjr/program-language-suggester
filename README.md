@@ -17,8 +17,12 @@ This app uses radio buttons, drop down menus, input fields, color selecter and d
 
 ## Setup/Installation Requirements
 
-* launch in a web browser of your choice using link:
-* _to list setup instructions_
+* launch web browser of your choice, then use link: https://github.com/maurorosalesjr/program-language-suggester/tree/gh-pages
+* on github website, fork repo
+* once forked, use your terminal to clone repo using "git clone https://github.com/maurorosalesjr/program-language-suggester/tree/gh-pages
+* Once cloned, open files using vscode
+* either click and drag html file to browser address bar or
+* click "go live" button at the bottom of the vscode winow
 * use selecter buttons to come up with your answers
 * finally hit submit to see your answer
 
